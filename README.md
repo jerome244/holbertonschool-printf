@@ -1,2 +1,1 @@
-# holbertonschool-printf
-printf project
+_printf
