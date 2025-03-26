@@ -11,6 +11,8 @@ int _format(const char specifier, va_list args)
 	types_t types[] = {
 		{'c', _char},
 		{'s', _string},
+		{'d', _int},
+		{'i', _int},
 		{'%', _percent},
 		{'\0', NULL}
 	};
