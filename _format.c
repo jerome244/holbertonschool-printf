@@ -2,9 +2,9 @@
 
 /**
  * _format - function types.
- * @type: conversion types.
- * @args: arguments.
- * Return: types.
+ * @specifier: character to specify a type of input string
+ * @args: arguments
+ * Return: number of character
  */
 int _format(const char specifier, va_list args)
 {
