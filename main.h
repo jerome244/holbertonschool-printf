@@ -13,6 +13,7 @@
   * @specifier: A specifier character associated to a data type.
   * @f: A function pointer that process data type specified by `types`.
   */
+
 typedef struct types
 {
 	char specifier;
@@ -25,6 +26,6 @@ int _putchar(char c);
 int _char(va_list args);
 int _string(va_list args);
 int _printf(const char *format, ...);
-
+int _int(va_list args);
 
 #endif
