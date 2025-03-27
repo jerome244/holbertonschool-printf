@@ -8,9 +8,9 @@
 #include <stdint.h>
 
 /**
-  * struct types - specifiers characters and their associated functions.
+  * struct types - specifiers characters and the functions
   *
-  * @specifier: A specifier character associated to a data type.
+  * @specifier: A specifier character link to a data type
   * @f: A function pointer that process data type specified by `types`.
   */
 typedef struct types
