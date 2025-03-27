@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _printf - print a string into a formatted output
- * @format: an array of character string
+ * _printf - print a string to the output
+ * @format: an array of character
  *
  * Return: the sum of printed characters
  */
