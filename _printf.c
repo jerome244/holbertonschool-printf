@@ -12,7 +12,7 @@ int _printf(const char *format, ...)
 	int i = 0, sum = 0;
 	va_list args;
 
-	if (!format || (format[0] == '%' && !format[1]))
+	if (!format || (format[0] == '%' && !format[1])) //check if the inputted string is empty
 		return (-1);
 
 	if (format[0] == '%' && format[1] == ' ' && !format[2])
