@@ -4,26 +4,26 @@
 
 
 
-![App Screenshot](https://imgs.search.brave.com/8yr3VkuTiLRKEaiW652FeJ9iHrUiH9J0UdUgmBCweeQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9wbGFp/bmUtaW1hZ2VzLmZy/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI0/LzA3L0hPTEJFUlRP/Ti0zMDB4MzAwLndl/YnA)
+![App Screenshot](https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/429641439_792522079563968_5846022648137048441_n.png?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=qXNlfBeJUM0Q7kNvgF6Eb2G&_nc_oc=AdkI4zOWe6OTfTVWMESaOVKP5Dl8eqBz47gGEc9L1xahLaMcb_YuW51-ZI-k-2HK2Cg&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Z_mYbVAEjbBLnUmeTc2VRA&oh=00_AYGsT9WIMUSLHqyVo2RWCL-haLED7Zk1LBQRPhQ41aBHvw&oe=67EAEEB3)
 
 
 # Custom printf project 📓
 
 Hi everyone. As group of 3 students in Holberton School we made a mini version of printf from the standard function in C. 
 
-This version of printf convert a specific character to display a string, a percent or an integer. 
+This version of printf convert a specific character to display a string.
 
 📅​ To make this project, we organize our week like this: 
 
-Monday: Debrief, documentation and organization for the week + flowchart
+📍Monday: Debrief, documentation and organization for the week + flowchart
 
-Tuesday: create github repo + branch, start code
+📍Tuesday: create github repo + branch, start code
 
-Wednesday: More code and test of our program
+📍Wednesday: More code and test of our program
 
-Thursday: More code and test then working on the readme and man pages
+📍Thursday: More code and test then working on the readme and man page
 
-Friday: Rework of the flowchart, oral training
+📍Friday: Rework of the flowchart, oral training
 
 
 ## Installation & compilation 💻
@@ -81,7 +81,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 |  int_print(const char *format,...) | int print_char(va_list args) |
 | int _format(const char specifier, va_list args) | int print_string(va_list args) |
 | int _putchar(char c) | int print_percent(va_list args)|
-| int print_int| int print_int(va_list args) |
+| int _int| int print_int(va_list args) |
 
 
 ## Examples ✍️
