@@ -13,12 +13,12 @@ int _string(va_list args)
 	char *str = va_arg(args, char *);
 	int i = 0;
 
-	if (str == NULL)
-		str = "(null)";
+	if (str == NULL) //check if the string is empty
+		str = "(null)"; //return the string for the exercice's error
 
 	while (str[i] != '\0')
 	{
-		_putchar(str[i]);
+		_putchar(str[i]); //print the string
 		i++;
 	}
 
