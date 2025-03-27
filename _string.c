@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _string - writes the string to stdout
+ * _string - writes the string to output
  * @args: The string to print
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * On error, -1 is returned
  */
 
 int _string(va_list args)
