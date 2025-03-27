@@ -32,7 +32,7 @@ int _printf(const char *format, ...)
 			else
 				return (-1);
 		}
-		else
+		else //in case if the inputted format string is a simple string
 		{
 			_putchar(format[i]);
 			sum++;
