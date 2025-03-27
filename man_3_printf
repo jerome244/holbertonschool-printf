@@ -1,0 +1,81 @@
+.TH Printf
+.SH\m[Red]Printf\m[white]
+.ce 
+\m[red]Printf Project\m[white]
+March 2025
+.sp 2
+
+.SH \m[red]SYNOPSIS:\m[white]
+.PP
+#include "main.h"
+
+int _printf(const char *format, ...)
+.sp 2
+
+.SH \m[red]DESCRIPTION:\m[white]
+.PP
+The _printf function  is designed to format and print data to the standard output.
+The format string can contain conversion specifiers, which begin with a '%' character, The following conversion specifiers are available:
+.PP
+
+.TS
+center allbox tab(*);
+l r.
+%\m[yellow]c\m[] * Prints a char.
+%\m[yellow]s\m[] * Prints a string.
+%\m[yellow]%\m[] * Prints a percent.
+%\m[yellow]d\m[] or %\m[yellow]i\m[] * Prints an interger.
+.TE
+
+.SH \m[red]FUNCTION PROTOTYPE:\m[white]
+.TS
+center allbox tab(*);
+c.
+int _format(const char specifier, va_list args);
+int _percent(va_list args);
+int _putchar(char c);
+int _char(va_list args);
+int _string(va_list args);
+int _printf(const char *format, ...);
+.TE
+
+.SH \m[red]EXAMPLES:\m[white]
+.PP
+.B \m[cyan]Example\m[white] :
+.EX
+int result = \m[magenta]_printf\m[white]("\m[yellow]Hello\m[white], %s\m[yellow]!\m[white]\\n", "\m[yellow]World\m[white]");
+printf("Printed %d char.\\n", result);
+.EE
+Output:
+.nf
+\m[yellow]Hello, World!\m[white]
+Printed 14 characters.
+.fi
+
+.B \m[cyan]Example Capital Characters\m[white] :
+.nf
+int result = \m[magenta]_printf\m[white]("Char: %c\\n", '\m[yellow]A\m[white]');
+printf("Printed %d char.\\n", result);
+.fi
+Output:
+.nf
+Char: \m[yellow]A\m[white]
+Printed 26 characters.
+.fi
+
+.B \m[cyan]Example Symbole\m[white] :
+.nf
+int result = \m[magenta]_printf\m[white]("Percentage sign:%%\\n", '\m[yellow]%\m[white]');
+printf("Printed %d char.\\n", result);
+.fi
+Output:
+.nf
+Percentage sign: \m[yellow]%\m[white]
+Printed 19 characters.
+.fi
+.sp 2
+
+.SH \m[red]AUTHORS:\m[white]
+.nf
+\m[green]Elhadj Reziga, Jerome Tran, Laura Aupetit.\m[white]
+.fi
