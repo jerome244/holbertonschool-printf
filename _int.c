@@ -9,7 +9,7 @@
 
 int _int(va_list args)
 {
-	long int number = va_arg(args, int);
+	long int number = va_arg(args, int); //long type for fixing task 1
 	int sum = 0;
 	int multiplication = 1;
 	long int division;
