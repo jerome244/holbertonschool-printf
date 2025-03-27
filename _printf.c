@@ -4,7 +4,7 @@
  * _printf - print a string into a formatted output
  * @format: an array of character string
  *
- * Return: a sum of printed characters
+ * Return: the sum of printed characters
  */
 
 int _printf(const char *format, ...)

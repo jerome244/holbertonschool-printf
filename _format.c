@@ -2,15 +2,17 @@
 
 /**
  * _format - function types.
- * @type: conversion types.
- * @args: arguments.
- * Return: types.
+ * @specifier: character to specify a type of input string
+ * @args: arguments
+ * Return: number of character
  */
 int _format(const char specifier, va_list args)
 {
 	types_t types[] = {
 		{'c', _char},
 		{'s', _string},
+		{'d', _int},
+		{'i', _int},
 		{'%', _percent},
 		{'\0', NULL}
 	};
