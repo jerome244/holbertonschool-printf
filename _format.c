@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _format - function types.
+ * _format - the type of the function
  * @specifier: character to specify a type of input string
  * @args: arguments
  * Return: number of character
