@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _char - writes the character c to stdout
+ * _char - write the character
  * @args: The character to print
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * On error -1 is returned
  */
 
 int _char(va_list args)
