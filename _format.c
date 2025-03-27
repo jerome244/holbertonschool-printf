@@ -18,7 +18,7 @@ int _format(const char specifier, va_list args)
 	};
 	int i = 0;
 
-	while (types[i].specifier)
+	while (types[i].specifier) //while there is a character after the '%' char in the format inputted string
 	{
 		if (types[i].specifier == specifier)
 			return (types[i].f(args));
