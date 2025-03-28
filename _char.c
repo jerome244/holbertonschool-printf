@@ -10,7 +10,7 @@
 
 int _char(va_list args)
 {
-	char c = va_arg(args, int); //the c variable will receive the member of the arg list
+	char c = va_arg(args, int); /* variable c will get the member of list arg */
 
 	return (_putchar(c));
 }
