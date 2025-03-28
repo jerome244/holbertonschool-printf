@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * _int - print integers 
+ * _int - print integers
  * @args: arguments
  *
- * Rerurn: the sum of characters in the input string
+ * Return: the sum of characters in the input string
  */
 
 int _int(va_list args)
 {
-	long int number = va_arg(args, int); //long type for fixing task 1
+	long int number = va_arg(args, int); /* long type for fixing task 1 */
 	int sum = 0;
 	int multiplication = 1;
 	long int division;

@@ -18,9 +18,12 @@ int _format(const char specifier, va_list args)
 	};
 	int i = 0;
 
-	while (types[i].specifier) //while there is a character after the '%' char in the format inputted string
+	while (types[i].specifier) /* while there character after the '%' --> */
+				/* char in the format input string */
 	{
-		if (types[i].specifier == specifier) //in case if the characters following the % correspond to a character of the structure types
+		if (types[i].specifier == specifier)
+			/* in case if the characters following the % --> */
+			/* correspond to a character of the structure types */
 			return (types[i].f(args));
 		i++;
 	}

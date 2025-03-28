@@ -12,17 +12,17 @@ int _printf(const char *format, ...)
 	int i = 0, sum = 0;
 	va_list args;
 
-	if (!format || (format[0] == '%' && !format[1])) //check if the inputted string is empty
-		return (-1);
+	if (!format || (format[0] == '%' && !format[1]))
+		return (-1); /* check if the string is empty */
 
 	if (format[0] == '%' && format[1] == ' ' && !format[2])
 		return (-1);
 
-	va_start(args, format); //initialization of the variadic function
+	va_start(args, format); /* initialization of the variadic function */
 
 	for (i = 0; format[i] != '\0'; i++)
 	{
-		if (format[i] == '%') //check if the inputted string contained the '%' character
+		if (format[i] == '%') /* check if the string contained the '%' charaters */
 		{
 			if (format[i + 1] != '\0')
 			{
@@ -32,7 +32,7 @@ int _printf(const char *format, ...)
 			else
 				return (-1);
 		}
-		else //in case if the inputted format string is a simple string
+		else /* in case if the inputted format string is a simple string */
 		{
 			_putchar(format[i]);
 			sum++;
