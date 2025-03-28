@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _int - print integers 
+ * _int - print integers
  * @args: arguments
  *
- * Rerurn: the sum of characters in the input string
+ * Return: the sum of characters in the input string
  */
 
 int _int(va_list args)
